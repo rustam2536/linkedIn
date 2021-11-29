@@ -1,0 +1,60 @@
+.sidebar{
+    display: flex;
+    flex: 0.23;
+    margin: 0px 15px;
+    flex-direction: column;
+}
+.sidebar .sidebar_profile {
+border-bottom: 1px solid rgb(206, 206, 206);
+text-align: center;
+background-color: white;
+border-radius: 10px;
+padding-bottom: 10px;
+overflow:hidden;
+}
+.sidebar .sidebar_profile img{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0px;
+}
+.sidebar .sidebar_profile .MuiAvatar-circular{
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    object-fit: contain;
+    margin-top: -47px;
+}
+.profile_details{
+    padding: 20px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    margin-bottom: 20px;
+}
+.profile_stats{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-variant: 12px;
+    padding: 5px 10px;
+    align-items: center;
+}
+.sidebar_recent{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    position: sticky;
+    top: 80px;
+}
+.hash span{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 5px;
+    color:#050536;
+}
+.sidebar_recent p{
+    margin-right: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
